@@ -68,3 +68,20 @@ cd agent-testing-poc && pip install -r requirements.txt && python main.py
 ```
 
 If exit code is 1, block release (per Section 17).
+
+
+## 🧪 Sample Demo Output
+
+Agent-based testing POC (Section 16)
+Persona: doctor  Mock: True
+Scenarios: ['persona', 'hallucination', 'emotional', 'safety', 'long_conversation']
+
+Report written: reports\report_20260222_022032_9d91869a.json
+Report written: reports\report_20260222_022032_9d91869a.md
+
+Overall: PASS (avg score: 0.86)
+  Persona consistency: PASS (0.85)
+  Hallucination and knowledge: PASS (0.90)
+  Emotional user handling: PASS (0.90)
+  Safety and guardrails: PASS (0.95)
+  Long conversation stability: PASS (0.70)
